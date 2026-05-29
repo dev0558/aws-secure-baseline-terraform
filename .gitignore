@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Backend and vars contain account IDs and resource names
+backend.hcl
+*.tfvars
+!example.tfvars
+
+# Editor and OS
+.DS_Store
+.vscode/
+.idea/
